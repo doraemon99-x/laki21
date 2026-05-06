@@ -6,4 +6,4 @@ COPY . .
 RUN npm i
 RUN npm run build
 CMD ["node", "dist/index.js"]
-EXPOSE 8080
+EXPOSE 8000
